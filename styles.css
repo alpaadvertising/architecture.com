@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #d15a28; /* Orange */
+    color: #fff;
+    margin: 0;
+}
+
+/* Container for Boxes */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* Styling for individual boxes */
+.box {
+    background-color: #006d4e; /* Dark Teal */
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+
+/* Arrows */
+.arrow {
+    text-align: center;
+    font-size: 30px;
+    color: #d15a28; /* Orange */
+}
+
+/* Connections Section */
+.connections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.connections div {
+    margin: 5px 0;
+}
