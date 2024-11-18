@@ -15,49 +15,27 @@ h1 {
     margin: 0;
 }
 
-/* Container for Boxes */
+/* Container for the diagram */
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 30px;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
 }
 
-/* Styling for individual boxes */
-.box {
+/* Styling for the diagram box */
+.diagram-box {
     background-color: #006d4e; /* Dark Teal */
-    color: #fff;
-    border-radius: 8px;
     padding: 20px;
-    margin: 15px;
-    width: 200px;
-    text-align: center;
+    border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.box h2 {
-    margin: 0;
-    padding-bottom: 10px;
-    font-size: 18px;
-    border-bottom: 2px solid #fff;
-}
-
-/* Arrows */
-.arrow {
-    text-align: center;
-    font-size: 30px;
-    color: #d15a28; /* Orange */
-}
-
-/* Connections Section */
-.connections {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.connections div {
-    margin: 5px 0;
+/* Image Styling */
+.diagram-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 5px solid #d15a28; /* Orange border for image */
 }
